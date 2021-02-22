@@ -3,11 +3,11 @@
 *    undefined
 
 # Table Of Content:
-* [Description](#Project_Description:)
-* [Installation](#Project_Installation_Instructions:)
-* [Usage](#Project_Usage:)
-* [Contributing](#Project_Contributors:)
-* [Tests](#Project_Test:)
+* [Project_Description:](#Project_Description:)
+* [Project_Installation_Instructions:](#Project_Installation_Instructions:)
+* [Project_Usage:](#Project_Usage)
+* [Project_Contributors](#Project_Contributors)
+* [Project_Test](#Project_Test)
 * [License](#Project_license:)
 * [Contact_Information](#Contact_Information:)
 
@@ -17,13 +17,13 @@
 # Project_Installation_Instructions: 
 * Start the program with node index.js , that will start the program. Then you can answer the question to generate the readme file.
 
-# Project_Usage:
+# Project_Usage
 * To create readMe files 
 
-# Project_Contributors:
+# Project_Contributors
 * No other contributors except the author.
 
-# Project_Test:
+# Project_Test
 * No test at the moment for this project
 
 # Project_License:
