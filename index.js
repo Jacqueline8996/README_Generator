@@ -67,7 +67,7 @@ const promptUser = () =>
     const generateReadMe = (answers)=>
        `
         # Title:
-        * ${answers.tite}
+        * ${answers.title}
         # Table Of Content:
         * [Description](#Project Description:)
         * [Installation](#Project Installation Instructions:)
