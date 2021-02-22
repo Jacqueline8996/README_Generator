@@ -1,6 +1,6 @@
  
 # Title
-* README Generator
+* ReadMe Generator
 
 # Table Of Content:
 * [Project_Description](#Project_Description)
@@ -12,23 +12,23 @@
 * [Contact_Information](#Contact_Information)
 
 # Project_Description
-* This application that creates read me files with a series of questions. 
+* To create read me Files after answering a series of questions
 
 # Project_Installation_Instructions
-* Fork this program to your local computer and utilize it to create readme documents
+* Clone or Fork from git hub to local machine and run for your project
 
 # Project_Usage
-* A video of the usage for this Application will be included. 
+* A usage video will be posted and later Included 
 
 # Project_Contributors
-* Author is the sole contributor.
+* Author is the sole contributor 
 
 # Project_Test
-* No Test is nedded for this project
+* No test for this project
 
 # Project_License
-* MIT
-* ![badge](https://img.shields.io/static/v1?label=Project_License&message=MIT&color=purple)
+* The_Unlicense
+* ![badge](https://img.shields.io/static/v1?label=Project_License&message=The_Unlicense&color=teal)
 
 # Contact_Information
 * If you have question or would like to contact the project creator please:
