@@ -1,6 +1,6 @@
  
 # Title
-* Read Me Generator
+* README Generator
 
 # Table Of Content:
 * [Project_Description](#Project_Description)
@@ -12,19 +12,19 @@
 * [Contact_Information](#Contact_Information)
 
 # Project_Description
-* With the answer of a series of question you will be able to create a read me file
+* This application that creates read me files with a series of questions. 
 
 # Project_Installation_Instructions
-* Start the program with node index.js , that will start the program. Then you can answer the question to generate the readme file.
+* Fork this program to your local computer and utilize it to create readme documents
 
 # Project_Usage
-* To create readMe files 
+* A video of the usage for this Application will be included. 
 
 # Project_Contributors
-* No other contributors except the author.
+* Author is the sole contributor.
 
 # Project_Test
-* No test at the moment for this project
+* No Test is nedded for this project
 
 # Project_License
 * MIT
