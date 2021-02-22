@@ -1,12 +1,8 @@
-// TODO: Include packages needed for this application
 //imports the Inquier file and fs file
 const inquirer = require('inquirer');
-
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
 //ask the user in nodes what question,and then put the information into a read me file
-
 const promptUser = () =>
     inquirer.prompt([
         {
@@ -64,46 +60,45 @@ const promptUser = () =>
 
     ]);
 
+    //creates the read me file in the format needed after the user get the information 
     const generateReadMe = (answers)=>
-       `
-        # Title:
-        * ${answers.title}
-        # Table Of Content:
-        * [Description](#Project Description:)
-        * [Installation](#Project Installation Instructions:)
-        * [Usage](#Project Usage:)
-        * [Contributing](#Project Contributors:)
-        * [Tests](#Project Test:)
-        * [License](#Project license:)
-        * [Contact Information](#Contact Information:)
-        #Project Description:
-        * ${answers.description}
-        #Project Installation Instructions: 
-        * ${answers.instruction}
-        #Project Usage:
-        * ${answers.usage}
-        #Project Contributors:
-        * ${answers.contribution}
-        #Project Test:
-        * ${answers.test}
-        #Project License:
-        * ${answers.license}
+       ` #  Title:
+        *  ${answers.title}
+        #  Table Of Content:
+        *  [Description](#Project Description:)
+        *  [Installation](#Project Installation Instructions:)
+        *  [Usage](#Project Usage:)
+        *  [Contributing](#Project Contributors:)
+        *  [Tests](#Project Test:)
+        *  [License](#Project license:)
+        *  [Contact Information](#Contact Information:)
+        #  Project Description:
+        *  ${answers.description}
+        #  Project Installation Instructions: 
+        *  ${answers.instruction}
+        #  Project Usage:
+        *  ${answers.usage}
+        #  Project Contributors:
+        *  ${answers.contribution}
+        #  Project Test:
+        *  ${answers.test}
+        #  Project License:
+        *  ${answers.license}
         ![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
-        #Contact Information:
-        * If you have question or would like to contact the project creator please:
-            * Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
-            * Email at: ${answers.email}
-        `;
+        #  Contact Information:
+        *  If you have question or would like to contact the project creator please:
+            *  Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
+            *  Email at: ${answers.email}`;
     
 
 
     
     const init = () => {
-    promptUser().then((answers) => {
+        promptUser().then((answers) => {
         try {
         const readme = generateReadMe(answers);
         fs.writeFileSync('README.md', readme);
-        console.log('Successfully wrote to readme.html');
+        console.log('Successfully wrote to Readme.md');
         } catch (error) {
         console.log(error);
         }
