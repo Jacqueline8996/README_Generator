@@ -68,35 +68,35 @@ const promptUser = () =>
 # Title:
 * ${answers.title}
 
-# Table Of Content:
-* [Description](#Project Description:)
-* [Installation](#Project Installation Instructions:)
-* [Usage](#Project Usage:)
-* [Contributing](#Project Contributors:)
-* [Tests](#Project Test:)
-* [License](#Project license:)
-* [Contact Information](#Contact Information:)
+# Table of Contact:
+* [Description](# Project_Description:)
+* [Installation](# Project_Installation_Instructions:)
+* [Usage](# Project_Usage:)
+* [Contributing](# Project_Contributors:)
+* [Tests](# Project_Test:)
+* [License](# Project_license:)
+* [Contact_Information](# Contact_Information:)
 
-# Project Description:
+# Project_Description:
 * ${answers.description}
 
-# Project Installation Instructions: 
+# Project_Installation_Instructions: 
 * ${answers.instruction}
 
-# Project Usage:
+# Project_Usage:
 * ${answers.usage}
 
-# Project Contributors:
+# Project_Contributors:
 * ${answers.contribution}
 
-# Project Test:
+# Project_Test:
 * ${answers.test}
 
-# Project License:
+# Project_License:
 * ${answers.license}
 * ![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
 
-# Contact Information:
+# Contact_Information:
 * If you have question or would like to contact the project creator please:
     *  Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
     *  Email at: ${answers.email}`;
