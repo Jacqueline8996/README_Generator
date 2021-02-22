@@ -62,33 +62,44 @@ const promptUser = () =>
 
     //creates the read me file in the format needed after the user get the information 
     const generateReadMe = (answers)=>
-       ` #  Title:
-        *  ${answers.title}
-        #  Table Of Content:
-        *  [Description](#Project Description:)
-        *  [Installation](#Project Installation Instructions:)
-        *  [Usage](#Project Usage:)
-        *  [Contributing](#Project Contributors:)
-        *  [Tests](#Project Test:)
-        *  [License](#Project license:)
-        *  [Contact Information](#Contact Information:)
-        #  Project Description:
-        *  ${answers.description}
-        #  Project Installation Instructions: 
-        *  ${answers.instruction}
-        #  Project Usage:
-        *  ${answers.usage}
-        #  Project Contributors:
-        *  ${answers.contribution}
-        #  Project Test:
-        *  ${answers.test}
-        #  Project License:
-        *  ${answers.license}
-        ![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
-        #  Contact Information:
-        *  If you have question or would like to contact the project creator please:
-            *  Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
-            *  Email at: ${answers.email}`;
+    //In order to get this to work yo have to move it as farleft as you can so the git hub recognize the formatting 
+
+` 
+#  Title:
+*  ${answers.title}
+
+#  Table Of Content:
+*  [Description](#Project Description:)
+*  [Installation](#Project Installation Instructions:)
+*  [Usage](#Project Usage:)
+*  [Contributing](#Project Contributors:)
+*  [Tests](#Project Test:)
+*  [License](#Project license:)
+*  [Contact Information](#Contact Information:)
+
+#  Project Description:
+*  ${answers.description}
+
+#  Project Installation Instructions: 
+*  ${answers.instruction}
+
+#  Project Usage:
+*  ${answers.usage}
+
+#  Project Contributors:
+*  ${answers.contribution}
+
+#  Project Test:
+*  ${answers.test}
+
+#  Project License:
+*  ${answers.license}
+![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
+
+#  Contact Information:
+*  If you have question or would like to contact the project creator please:
+    *  Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
+    *  Email at: ${answers.email}`;
     
 
 
