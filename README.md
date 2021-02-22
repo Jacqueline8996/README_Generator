@@ -5,7 +5,7 @@
 # Table Of Content:
 * [Project_Description:](#Project_Description:)
 * [Project_Installation_Instructions:](#Project_Installation_Instructions:)
-* [Project Usage:](#Project_Usage)
+* [Project Usage](#Project_Usage)
 * [Project_Contributors](#Project_Contributors)
 * [Project_Test](#Project_Test)
 * [License](#Project_license:)
