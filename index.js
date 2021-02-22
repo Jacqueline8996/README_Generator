@@ -91,8 +91,8 @@ const promptUser = () =>
         ![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
         #Contact Information:
         * If you have question or would like to contact the project creator please:
-            * Get Visit Git Hub profile at: (https://github.com/${gitHub})
-            * Email at: ${email}
+            * Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
+            * Email at: ${answers.email}
         `;
     
 
