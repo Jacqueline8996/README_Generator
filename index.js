@@ -65,38 +65,38 @@ const promptUser = () =>
     //In order to get this to work yo have to move it as farleft as you can so the git hub recognize the formatting 
 
 ` 
-# Title:
+# Title
 * ${answers.title}
 
-# Table of Contact:
-* [Description](# Project_Description:)
-* [Installation](# Project_Installation_Instructions:)
-* [Usage](# Project_Usage:)
-* [Contributing](# Project_Contributors:)
-* [Tests](# Project_Test:)
-* [License](# Project_license:)
-* [Contact_Information](# Contact_Information:)
+# Table Of Content:
+* [Project_Description](#Project_Description)
+* [Project_Installation_Instructions](#Project_Installation_Instructions)
+* [Project_Usage](#Project_Usage)
+* [Project_Contributors](#Project_Contributors)
+* [Project_Test](#Project_Test)
+* [License](#Project_license)
+* [Contact_Information](#Contact_Information)
 
-# Project_Description:
+# Project_Description
 * ${answers.description}
 
-# Project_Installation_Instructions: 
+# Project_Installation_Instructions
 * ${answers.instruction}
 
-# Project_Usage:
+# Project_Usage
 * ${answers.usage}
 
-# Project_Contributors:
+# Project_Contributors
 * ${answers.contribution}
 
-# Project_Test:
+# Project_Test
 * ${answers.test}
 
-# Project_License:
+# Project_License
 * ${answers.license}
 * ![badge](https://img.shields.io/static/v1?label=Project_License&message=${answers.license}&color=${answers.badgeColor})
 
-# Contact_Information:
+# Contact_Information
 * If you have question or would like to contact the project creator please:
     *  Get Visit Git Hub profile at: (https://github.com/${answers.gitHub})
     *  Email at: ${answers.email}`;
