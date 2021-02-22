@@ -3,13 +3,13 @@
 *    undefined
 
 # Table Of Content:
-* [Project_Description](#Project_Description)
-* [Project_Installation_Instructions](#Project_Installation_Instructions)
-* [Project_Usage](#Project_Usage)
-* [Project_Contributors](#Project_Contributors)
-* [Project_Test](#Project_Test)
+* [Description](#Project_Description)
+* [Installation](#Project_Installation_Instructions)
+* [Usage](#Project_Usage)
+* [Contributors](#Project_Contributors)
+* [Test](#Project_Test)
 * [License](#Project_license)
-* [Contact_Information](#Contact_Information)
+* [Contact](#Contact_Information)
 
 # Project_Description
 * With the answer of a series of question you will be able to create a read me file
