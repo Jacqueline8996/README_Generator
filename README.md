@@ -5,7 +5,7 @@
 # Table Of Content:
 * [Project_Description:](#Project_Description:)
 * [Project_Installation_Instructions:](#Project_Installation_Instructions:)
-* [Project_Usage:](#Project_Usage)
+* [Project Usage:](#Project_Usage)
 * [Project_Contributors](#Project_Contributors)
 * [Project_Test](#Project_Test)
 * [License](#Project_license:)
@@ -17,7 +17,7 @@
 # Project_Installation_Instructions: 
 * Start the program with node index.js , that will start the program. Then you can answer the question to generate the readme file.
 
-# Project_Usage
+# Project Usage
 * To create readMe files 
 
 # Project_Contributors
