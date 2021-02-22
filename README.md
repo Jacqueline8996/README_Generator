@@ -18,7 +18,7 @@
 * Clone or Fork from git hub to local machine and run for your project
 
 # Project_Usage
-* A usage video will be posted and later Included 
+* A usage video : https://drive.google.com/file/d/1glwpSdFohOdSuqhqz6PXMMVv1Tyf0uiT/view?usp=sharing
 
 # Project_Contributors
 * Author is the sole contributor 
